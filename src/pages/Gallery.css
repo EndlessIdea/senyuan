@@ -1,0 +1,148 @@
+.gallery-page .page-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.gallery-section {
+  margin-bottom: 4rem;
+}
+
+.gallery-grid-large {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item-large {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.gallery-item-large:hover,
+.gallery-item-link:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.gallery-image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-placeholder-large {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.gallery-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  padding: 1.5rem;
+  color: white;
+}
+
+.gallery-overlay h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.gallery-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.gallery-info h4 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.gallery-info p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.cta-section {
+  margin: 4rem 0;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, var(--primary-color) 0%, #2c5f88 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta-box h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-box p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid-large {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .gallery-image {
+    height: 240px;
+  }
+
+  .gallery-number {
+    font-size: 2.5rem;
+  }
+
+  .cta-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .cta-box h2 {
+    font-size: 1.5rem;
+  }
+}

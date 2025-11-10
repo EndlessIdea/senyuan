@@ -1,0 +1,185 @@
+.recruit-page .page-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.recruit-intro {
+  margin-bottom: 3rem;
+}
+
+.recruit-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.recruit-card h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recruit-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recruit-list li {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.recruit-list li:last-child {
+  border-bottom: none;
+}
+
+.positions-section {
+  margin-bottom: 4rem;
+}
+
+.position-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 3rem;
+}
+
+.position-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+  text-align: center;
+}
+
+.position-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.position-section h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.position-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.position-section li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-dark);
+  line-height: 1.7;
+}
+
+.position-section li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.position-cta {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.position-cta .btn {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+}
+
+.application-note {
+  margin-top: 1rem;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.application-section {
+  margin-bottom: 2rem;
+}
+
+.application-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.application-card h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.application-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.application-step {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+}
+
+.step-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.application-step h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.application-step p {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .recruit-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .position-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .position-details {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .application-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .application-steps {
+    grid-template-columns: 1fr;
+  }
+}

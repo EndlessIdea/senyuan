@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="contact-card">
               <div className="contact-icon">📞</div>
               <h3>電話でのお問合せ</h3>
-              <p className="contact-number">048-287-3118</p>
+              <p className="contact-number">03-6662-8729</p>
               <p className="contact-hours">24時間対応</p>
             </div>
 

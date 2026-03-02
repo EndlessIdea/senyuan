@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-details">
               <p>〒124-0011 東京都葛飾区四つ木4-13-16</p>
               <p>KーFLAT四つ木105</p>
-              <p>Tel: 048-287-3118 | Fax: 048‐287‐3151</p>
+              <p>Tel: 03-6662-8729 | Fax: 03-6662-8729</p>
               <p>Email: morimotonaisou@gmail.com</p>
             </div>
           </div>

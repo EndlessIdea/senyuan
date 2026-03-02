@@ -20,7 +20,7 @@ const Header = () => {
           <div className="company-info">
             <div className="info-item">
               <span className="icon">📞</span>
-              <span>048-287-3118</span>
+              <span>03-6662-8729</span>
             </div>
             <div className="info-item">
               <span className="icon">✉️</span>
@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             <div className="info-item">
               <span className="icon">🕒</span>
-              <span>9:00 - 18:00</span>
+              <span>9:00 - 17:00</span>
             </div>
           </div>
         </div>
